@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Siddharth Tripathi — Computer Science Engineering student building AI, computer vision and edge systems." />
+  <meta name="theme-color" content="#0b0d10" />
+  <title>Siddharth Tripathi — CSE • AI • Computer Vision</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="progress" id="progress"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Siddharth Tripathi home">
+      <span class="brand-mark">ST</span>
+      <span>Siddharth Tripathi</span>
+    </a>
+
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle theme">
+      <span id="themeIcon">☾</span>
+    </button>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> CSE student • AI / Computer Vision</p>
+        <h1>Building intelligent systems that move <em>from code to reality.</em></h1>
+        <p class="hero-text">
+          I’m Siddharth, a Computer Science Engineering student at SRM Institute of Science and Technology.
+          I build deep-learning systems, computer-vision applications and full-stack AI products—with a growing
+          focus on edge AI, robotics and physical intelligence.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Explore my work <span>↗</span></a>
+          <a class="button ghost" href="Siddharth_Tripathi_Resume.pdf" target="_blank" rel="noopener">View resume</a>
+        </div>
+        <div class="quick-links">
+          <a href="https://github.com/tripathisiddharth765-a11y" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/siddharth-tripathi-b04a47398" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a href="mailto:siddharthtripathi052@gmail.com">Email ↗</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal delay-1" aria-label="Technology focus">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="core">
+          <span class="core-label">FOCUS</span>
+          <strong>AI</strong>
+          <span>×</span>
+          <strong>EDGE</strong>
+        </div>
+        <div class="floating-chip chip-a">PyTorch</div>
+        <div class="floating-chip chip-b">Computer Vision</div>
+        <div class="floating-chip chip-c">C++ / Python</div>
+        <div class="floating-chip chip-d">Robotics</div>
+      </div>
+    </section>
+
+    <section class="stats-strip">
+      <div><strong>95%+</strong><span>Neural network accuracy</span></div>
+      <div><strong>94.2%</strong><span>EcoSort top-1 accuracy</span></div>
+      <div><strong>120ms</strong><span>Optimized inference latency</span></div>
+      <div><strong>Top 5</strong><span>National hackathon finalist</span></div>
+    </section>
+
+    <section class="section two-col" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 / ABOUT</p>
+        <h2>Curious about intelligence—especially when it leaves the screen.</h2>
+      </div>
+      <div class="about-copy reveal delay-1">
+        <p>
+          I’m currently pursuing a B.Tech in Computer Science Engineering at SRM Institute of Science and Technology.
+          My work sits at the intersection of deep learning, computer vision, software engineering and edge deployment.
+        </p>
+        <p>
+          I enjoy understanding systems from first principles—whether that means implementing a neural network with
+          NumPy, optimizing a ResNet model for real-time inference, or turning an LLM into a practical study tool.
+        </p>
+        <div class="about-grid">
+          <div><span>Education</span><strong>SRM IST</strong></div>
+          <div><span>Degree</span><strong>B.Tech CSE</strong></div>
+          <div><span>Current year</span><strong>2nd Year</strong></div>
+          <div><span>Interests</span><strong>AI • Robotics • Edge</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading reveal">
+        <p class="eyebrow">02 / SELECTED WORK</p>
+        <h2>Projects with a bias toward understanding <em>how things work.</em></h2>
+        <p class="section-note">Interactive visual previews give a quick feel for each build before diving into the technical details.</p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card featured reveal">
+          <div class="project-number">01</div>
+          <div class="project-top">
+            <span class="project-tag">COMPUTER VISION • EDGE AI</span>
+            <span class="project-metric">94.2% accuracy</span>
+          </div>
+          <div class="project-preview ecosort-preview" aria-label="EcoSort AI project preview">
+            <div class="preview-bar"><span class="live-pill">● LIVE</span><span>WEBCAM INFERENCE</span><span>30 FPS</span></div>
+            <div class="camera-frame">
+              <div class="camera-object"><span class="camera-icon">♻</span><small>OBJECT DETECTED</small></div>
+              <div class="confidence-card"><span>CLASS</span><strong>Plastic</strong><div class="confidence-track"><i style="width:94.2%"></i></div><small>94.2% confidence</small></div>
+            </div>
+            <div class="preview-footer"><span>Latency <b>120ms</b></span><span>Model <b>ResNet18</b></span></div>
+          </div>
+          <h3>EcoSort AI</h3>
+          <p>
+            Real-time waste classification using PyTorch and ResNet18 transfer learning. The pipeline combines
+            webcam inference, confidence scoring and edge-oriented optimization.
+          </p>
+          <div class="metric-row">
+            <span><b>12k+</b> images</span>
+            <span><b>120ms</b> latency</span>
+            <span><b>30 FPS</b> target</span>
+          </div>
+          <div class="tech-list"><span>PyTorch</span><span>ResNet18</span><span>OpenCV</span><span>Streamlit</span><span>Quantization</span><span>Pruning</span></div>
+          <a class="project-link" href="https://github.com/tripathisiddharth765-a11y" target="_blank" rel="noopener">View GitHub profile ↗</a>
+        </article>
+
+        <article class="project-card reveal delay-1">
+          <div class="project-number">02</div>
+          <div class="project-top">
+            <span class="project-tag">DEEP LEARNING • FROM SCRATCH</span>
+            <span class="project-metric">95%+ accuracy</span>
+          </div>
+          <div class="project-preview nn-preview" aria-label="Neural network training preview">
+            <div class="preview-bar"><span>TRAINING RUN</span><span class="mini-badge">NUMPY</span></div>
+            <div class="nn-chart">
+              <div class="chart-grid"></div>
+              <svg viewBox="0 0 420 130" preserveAspectRatio="none" aria-hidden="true">
+                <polyline points="0,112 35,96 70,88 105,74 140,68 175,55 210,51 245,42 280,37 315,29 350,23 385,18 420,13"></polyline>
+                <polyline class="loss-line" points="0,16 35,31 70,40 105,53 140,59 175,69 210,76 245,83 280,91 315,96 350,101 385,106 420,111"></polyline>
+              </svg>
+            </div>
+            <div class="preview-footer"><span>Accuracy <b>95%+</b></span><span>Loss <b>↓</b></span><span>Epoch <b>100</b></span></div>
+          </div>
+          <h3>Breast Cancer Classification</h3>
+          <p>
+            A fully connected neural network implemented from scratch with NumPy, including forward propagation,
+            backpropagation, activation functions, cross-entropy loss and SGD optimization.
+          </p>
+          <div class="metric-row">
+            <span><b>569</b> samples</span>
+            <span><b>30</b> features</span>
+            <span><b>F1</b> evaluated</span>
+          </div>
+          <div class="tech-list"><span>NumPy</span><span>Python</span><span>Backpropagation</span><span>SGD</span></div>
+          <a class="project-link" href="https://github.com/tripathisiddharth765-a11y" target="_blank" rel="noopener">View GitHub profile ↗</a>
+        </article>
+
+        <article class="project-card reveal delay-2">
+          <div class="project-number">03</div>
+          <div class="project-top">
+            <span class="project-tag">GENERATIVE AI • FULL STACK</span>
+            <span class="project-metric">80% faster lookup</span>
+          </div>
+          <div class="project-preview study-preview" aria-label="AI study assistant project preview">
+            <div class="preview-bar"><span>STUDY ASSISTANT</span><span class="mini-badge">GEMINI</span></div>
+            <div class="study-window">
+              <div class="doc-side"><div class="doc-line wide"></div><div class="doc-line"></div><div class="doc-line short"></div><div class="doc-line"></div><div class="doc-line wide"></div></div>
+              <div class="chat-side">
+                <div class="chat-bubble user">Explain backpropagation simply.</div>
+                <div class="chat-bubble ai">Backpropagation calculates how each weight contributed to the error, then updates the weights to reduce that error.</div>
+              </div>
+            </div>
+            <div class="preview-footer"><span>Queries <b>500+</b></span><span>Lookup <b>−80%</b></span></div>
+          </div>
+          <h3>Generative AI Study Assistant</h3>
+          <p>
+            A document-query platform that combines Streamlit with the Google Gemini API to provide
+            context-aware explanations from uploaded study materials.
+          </p>
+          <div class="metric-row">
+            <span><b>500+</b> beta queries</span>
+            <span><b>30m+</b> problem addressed</span>
+            <span><b>LLM</b> powered</span>
+          </div>
+          <div class="tech-list"><span>Python</span><span>Streamlit</span><span>Gemini API</span><span>REST APIs</span></div>
+          <a class="project-link" href="https://github.com/tripathisiddharth765-a11y" target="_blank" rel="noopener">View GitHub profile ↗</a>
+        </article>
+      </div>
+      <p class="project-note">More repositories and experiments are available on my GitHub profile.</p>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="section-heading reveal">
+        <p class="eyebrow">03 / TOOLKIT</p>
+        <h2>A practical stack for <em>building and optimizing.</em></h2>
+      </div>
+
+      <div class="skills-layout">
+        <div class="skill-block reveal">
+          <h3>Languages</h3>
+          <div class="skill-cloud"><span>C/C++</span><span>Java</span><span>Python</span><span>JavaScript</span><span>HTML</span><span>CSS</span></div>
+        </div>
+        <div class="skill-block reveal delay-1">
+          <h3>AI / ML</h3>
+          <div class="skill-cloud"><span>PyTorch</span><span>TensorFlow concepts</span><span>Scikit-learn</span><span>NumPy</span><span>Pandas</span><span>OpenCV</span><span>ResNet</span><span>Transfer Learning</span><span>Model Optimization</span></div>
+        </div>
+        <div class="skill-block reveal delay-2">
+          <h3>Engineering</h3>
+          <div class="skill-cloud"><span>React</span><span>Streamlit</span><span>REST APIs</span><span>Git</span><span>GitHub</span><span>VS Code</span><span>Google Colab</span><span>Jupyter</span><span>Embedded Systems</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section achievement-section" id="achievements">
+      <div class="section-heading reveal">
+        <p class="eyebrow">04 / ACHIEVEMENTS</p>
+        <h2>Evidence of building under <em>real constraints.</em></h2>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <span class="timeline-dot"></span>
+          <div class="timeline-meta">2026 • NATIONAL-LEVEL HACKATHON</div>
+          <h3>HACKSAGON — Top 5 Finalist</h3>
+          <p>Ranked 5th among 150+ teams across 8 states. Built and pitched an AI-powered working prototype in under 24 hours.</p>
+        </article>
+        <article class="timeline-item reveal delay-1">
+          <span class="timeline-dot"></span>
+          <div class="timeline-meta">MODEL OPTIMIZATION</div>
+          <h3>450ms → 120ms inference</h3>
+          <p>Optimized EcoSort AI with quantization and pruning, reducing model size by 35% while enabling real-time edge inference.</p>
+        </article>
+        <article class="timeline-item reveal delay-2">
+          <span class="timeline-dot"></span>
+          <div class="timeline-meta">LEARNING BY IMPLEMENTATION</div>
+          <h3>Neural network from first principles</h3>
+          <p>Implemented forward propagation, backpropagation, losses and SGD with NumPy instead of relying on a high-level deep-learning framework.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section resume-section" id="resume">
+      <div class="resume-card reveal">
+        <div>
+          <p class="eyebrow">05 / RESUME</p>
+          <h2>Want the concise version?</h2>
+          <p>View or download my current two-page resume for a focused overview of my education, technical expertise, projects and achievements.</p>
+        </div>
+        <div class="resume-actions">
+          <a class="button primary" href="Siddharth_Tripathi_Resume.pdf" target="_blank" rel="noopener">Open resume ↗</a>
+          <a class="button ghost" href="Siddharth_Tripathi_Resume.pdf" download>Download PDF ↓</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-card reveal">
+        <p class="eyebrow">06 / CONTACT</p>
+        <h2>Let’s build something <em>intelligent.</em></h2>
+        <p>For internships, collaborations, projects or interesting engineering conversations.</p>
+        <a class="email-link" href="mailto:siddharthtripathi052@gmail.com">siddharthtripathi052@gmail.com</a>
+        <div class="contact-links">
+          <a href="https://github.com/tripathisiddharth765-a11y" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/siddharth-tripathi-b04a47398" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="Siddharth_Tripathi_Resume.pdf" target="_blank" rel="noopener">Resume</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> Siddharth Tripathi</span>
+    <span>Built with curiosity, code &amp; too much coffee.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
